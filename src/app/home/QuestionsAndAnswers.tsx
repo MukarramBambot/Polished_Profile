@@ -73,18 +73,19 @@ const QAS = [
     answer: (
       <p>
         PolishedProfile was created{" "}
-        <Link href="https://github.com/Cleven7">Cleven Michael Raj</Link> and designed
-        as a weekend project. As immigrants to the US, we had made many mistakes
-        when creating our first resumes and applying for internships and jobs.
-        It took us a long while to learn some of the best practices. While
-        mentoring first generation students and reviewing their resumes, we
-        noticed students were making the same mistakes that we had made before.
-        This led us to think about how we can be of help with the knowledge and
-        skills we have gained. We started chatting and working over the weekends
-        that led to PolishedProfile, where we integrated best practices and our
-        knowledge into this resume builder. Our hope is that PolishedProfile can help
-        anyone to easily create a modern professional resume that follows best
-        practices and enable anyone to apply for jobs with confidence.
+        <Link href="https://github.com/Cleven7">Cleven Michael Raj</Link> and{" "}
+      <Link href="https://github.com/MukarramBambot">Mukarram Bambot</Link> and designed
+      as a weekend project. As immigrants to the US, we had made many mistakes
+      when creating our first resumes and applying for internships and jobs.
+      It took us a long while to learn some of the best practices. While
+      mentoring first generation students and reviewing their resumes, we
+      noticed students were making the same mistakes that we had made before.
+      This led us to think about how we can be of help with the knowledge and
+      skills we have gained. We started chatting and working over the weekends
+      that led to PolishedProfile, where we integrated best practices and our
+      knowledge into this resume builder. Our hope is that PolishedProfile can help
+      anyone to easily create a modern professional resume that follows best
+      practices and enable anyone to apply for jobs with confidence.
       </p>
     ),
   },
@@ -94,22 +95,19 @@ const QAS = [
       <>
         <p>
           The best way to support PolishedProfile is to share your thoughts and
-          feedback with us to help further improve it. You can send us an email
-          at{" "}
-          <Link href="mailto:hello@polished-profile.com">hello@polished-profile.com</Link>{" "}
-          or{" "}
-          <Link href="https://github.com/Cleven7/Polished-Profile.git/issues/new">
+          feedback with us to help further improve it. You can{" "}
+          <Link href="https://github.com/Cleven7/PolishedProfile/issues/new">
             open an issue
           </Link>{" "}
-          at our Github repository. Whether you like it or not, we would love to
+          at our GitHub repository. Whether you like it or not, we would love to
           hear from you.
         </p>
         <p>
-          Another great way to support PolishedProfile is by spreading the words.
+          Another great way to support PolishedProfile is by spreading the word.
           Share it with your friends, on social media platforms, or with your
           school’s career center. Our goal is to reach more people who struggle
           with creating their resume, and your word-of-mouth support would be
-          greatly appreciated. If you use Github, you can also show your support
+          greatly appreciated. If you use GitHub, you can also show your support
           by{" "}
           <Link href="https://github.com/Cleven7/Polished-Profile.git">
             giving the project a star
@@ -118,7 +116,8 @@ const QAS = [
         </p>
       </>
     ),
-  },
+  }
+  
 ];
 
 export const QuestionsAndAnswers = () => {

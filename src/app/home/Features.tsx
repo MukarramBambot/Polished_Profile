@@ -28,7 +28,7 @@ const FEATURES = [
       <>
         PolishedProfile is an open-source project, and its source code can be viewed
         by anyone on its{" "}
-        <Link href="https://github.com/Cleven7/Polished-Profile.git">
+        <Link href="https://github.com/Mukarrambambot/Polished-Profile">
           GitHub repository
         </Link>
       </>

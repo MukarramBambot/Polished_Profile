@@ -349,8 +349,7 @@ export const ResumeParserAlgorithmArticle = ({
         And that is everything about the PolishedProfile parser algorithm :)
       </Paragraph>
       <Paragraph>
-        Written by <Link href="https://github.com/Cleven7">Cleven Michael Raj</Link> on
-        August 2024
+      Written by <Link href="https://github.com/Cleven7">Cleven Michael Raj</Link> and <Link href="https://github.com/Mukarrambambot">Mukarram Bambot</Link> on August 2024
       </Paragraph>
     </article>
   );
