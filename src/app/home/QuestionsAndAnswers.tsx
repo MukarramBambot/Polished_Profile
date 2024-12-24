@@ -96,7 +96,7 @@ const QAS = [
         <p>
           The best way to support PolishedProfile is to share your thoughts and
           feedback with us to help further improve it. You can{" "}
-          <Link href="https://github.com/Cleven7/PolishedProfile/issues/new">
+          <Link href="https://github.com/Cleven7/PolishedProfile">
             open an issue
           </Link>{" "}
           at our GitHub repository. Whether you like it or not, we would love to
@@ -112,12 +112,16 @@ const QAS = [
           <Link href="https://github.com/Cleven7/Polished-Profile.git">
             giving the project a star
           </Link>{" "}
-          to help increase its popularity and reach.
+          on Cleven Michael Raj's repository and{" "}
+          <Link href="https://github.com/Mukarrambambot/Polished-Profile.git">
+            giving the project a star
+          </Link>{" "}
+          on Mukarram Bambot's repository to help increase its popularity and reach.
         </p>
       </>
     ),
   }
-  
+    
 ];
 
 export const QuestionsAndAnswers = () => {
