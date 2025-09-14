@@ -1,30 +1,70 @@
 {
   "pages": {
     "/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
+      "static/chunks/webpack-106990a33819697e.js",
+      "static/chunks/2443530c-c7f733d562f0a1cf.js",
+      "static/chunks/488-ed35ba8528211b0d.js",
+      "static/chunks/main-app-44cae36609d9ffef.js",
+      "static/chunks/d7d60327-98a66c66781b1c1b.js",
+      "static/chunks/97776a6b-e6eabd031e8021bf.js",
+      "static/chunks/e919bf99-26d8785b1be95631.js",
+      "static/chunks/86644f4c-9242d51785a4b1da.js",
+      "static/chunks/640-c7f9edf470ef9672.js",
+      "static/chunks/394-80e9f72c4faeb0d1.js",
+      "static/chunks/920-4300a22019d79de5.js",
+      "static/chunks/497-2e865a8950617a8e.js",
+      "static/chunks/430-fc672c10a3fcd9ec.js",
+      "static/chunks/app/page-1ddb52928defce78.js"
     ],
     "/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/layout.css",
-      "static/chunks/app/layout.js"
-    ],
-    "/resume-parser/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/resume-parser/page.js"
-    ],
-    "/resume-import/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/resume-import/page.js"
+      "static/chunks/webpack-106990a33819697e.js",
+      "static/chunks/2443530c-c7f733d562f0a1cf.js",
+      "static/chunks/488-ed35ba8528211b0d.js",
+      "static/chunks/main-app-44cae36609d9ffef.js",
+      "static/chunks/394-80e9f72c4faeb0d1.js",
+      "static/chunks/920-4300a22019d79de5.js",
+      "static/css/51e2dc9db154edd1.css",
+      "static/chunks/app/layout-a9bcb6061974d0ab.js"
     ],
     "/resume-builder/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/resume-builder/page.js"
+      "static/chunks/webpack-106990a33819697e.js",
+      "static/chunks/2443530c-c7f733d562f0a1cf.js",
+      "static/chunks/488-ed35ba8528211b0d.js",
+      "static/chunks/main-app-44cae36609d9ffef.js",
+      "static/chunks/d7d60327-98a66c66781b1c1b.js",
+      "static/chunks/97776a6b-e6eabd031e8021bf.js",
+      "static/chunks/e919bf99-26d8785b1be95631.js",
+      "static/chunks/86644f4c-9242d51785a4b1da.js",
+      "static/chunks/640-c7f9edf470ef9672.js",
+      "static/chunks/497-2e865a8950617a8e.js",
+      "static/chunks/730-35bb206e29680ede.js",
+      "static/chunks/430-fc672c10a3fcd9ec.js",
+      "static/chunks/app/resume-builder/page-760324412ddf1bfc.js"
+    ],
+    "/resume-import/page": [
+      "static/chunks/webpack-106990a33819697e.js",
+      "static/chunks/2443530c-c7f733d562f0a1cf.js",
+      "static/chunks/488-ed35ba8528211b0d.js",
+      "static/chunks/main-app-44cae36609d9ffef.js",
+      "static/chunks/471cff1d-4df8b4dd72cbb589.js",
+      "static/chunks/92715f46-8c0d82704ccc417b.js",
+      "static/chunks/640-c7f9edf470ef9672.js",
+      "static/chunks/394-80e9f72c4faeb0d1.js",
+      "static/chunks/920-4300a22019d79de5.js",
+      "static/chunks/178-82bf5f0328e4fc48.js",
+      "static/chunks/app/resume-import/page-d7454a7ad497b96c.js"
+    ],
+    "/resume-parser/page": [
+      "static/chunks/webpack-106990a33819697e.js",
+      "static/chunks/2443530c-c7f733d562f0a1cf.js",
+      "static/chunks/488-ed35ba8528211b0d.js",
+      "static/chunks/main-app-44cae36609d9ffef.js",
+      "static/chunks/471cff1d-4df8b4dd72cbb589.js",
+      "static/chunks/92715f46-8c0d82704ccc417b.js",
+      "static/chunks/640-c7f9edf470ef9672.js",
+      "static/chunks/394-80e9f72c4faeb0d1.js",
+      "static/chunks/178-82bf5f0328e4fc48.js",
+      "static/chunks/app/resume-parser/page-8643f8e1509ec3d5.js"
     ]
   }
 }

@@ -69,3 +69,114 @@ PolishedProfile is created with the NextJS web framework and follows its project
 3. Build the container `docker build -t polished-profile .`
 4. Start the container `docker run -p 3000:3000 polished-profile`
 5. Open your browser and visit [http://localhost:3000](http://localhost:3000) to see PolishedProfile live
+
+
+# PolishedProfile Project Analysis
+
+## Overview
+
+**PolishedProfile** is an open-source resume builder and resume parser designed to provide users with a modern, professional resume design and tools to ensure resumes are compatible with Applicant Tracking Systems (ATS). It is built primarily with TypeScript and React, using Next.js as the web framework.
+
+---
+
+## Key Features
+
+### 1. Resume Builder
+- **Real-time UI Updates:** The resume PDF updates instantly as users fill out their information.
+- **Modern Design:** Ensures professional, consistent formatting adhering to U.S. best practices and is ATS-friendly.
+- **Privacy Focus:** All data processing runs locally in the browser; no sign-up, no data leaves the user's device.
+- **Import Existing Resume:** Users can import their existing PDF resumes to upgrade or edit them.
+- **Proven Track Record:** Users have reported success with top companies.
+
+### 2. Resume Parser
+- **ATS Readability Testing:** Users can analyze their resume's ATS compatibility.
+- **Deep Dive Documentation:** Detailed explanations are available on how the parser works.
+
+---
+
+## Tech Stack
+
+| Category           | Technology            | Description                                                                                      |
+|--------------------|----------------------|--------------------------------------------------------------------------------------------------|
+| Language           | TypeScript           | Static type checking for JavaScript.                                                             |
+| Web Framework      | Next.js 13           | Server-side rendering, routing, and static site generation.                                      |
+| UI Library         | React                | Component-based architecture for building the user interface.                                    |
+| State Management   | Redux Toolkit        | Centralized state management, especially for complex resume data.                                |
+| CSS Framework      | Tailwind CSS         | Utility-first CSS for rapid UI development.                                                      |
+| PDF Reader         | PDF.js               | Extracts text from PDF files for the resume parser.                                              |
+| PDF Renderer       | React-pdf            | Generates downloadable PDF resumes.                                                              |
+
+---
+
+## Project Structure
+
+The source code follows the Next.js convention, with the main app located in `src/app`. Key routes and components:
+
+| Route            | Code Path                      | Description                                                                                       |
+|------------------|-------------------------------|---------------------------------------------------------------------------------------------------|
+| `/`              | `/page.tsx`                   | Home page with hero, steps, testimonials, etc.                                                    |
+| `/resume-import` | `/resume-import/page.tsx`      | Import resume PDFs using the `ResumeDropzone` component.                                          |
+| `/resume-builder`| `/resume-builder/page.tsx`     | Resume builder, using `ResumeForm` and `Resume` components.                                       |
+| `/resume-parser` | `/resume-parser/page.tsx`      | Test a resume's ATS readability, using `parseResumeFromPdf` utility from `/lib/parse-resume-from-pdf`. |
+
+---
+
+## How it Works
+
+### Resume Parsing Logic
+
+- **PDF Reading:** Leverages Mozilla's PDF.js to extract text content from uploaded PDFs.
+- **Text Extraction:** Each text item includes content and metadata (position, font style, etc.).
+- **ATS Analysis:** The parser analyzes the structure for ATS compatibility.
+
+### Resume Building Logic
+
+- **Form-Based Data Entry:** Users enter resume data into forms managed by Redux.
+- **Live Preview:** Resume is rendered in real time using React and react-pdf.
+- **Export:** The final resume can be downloaded as a PDF.
+
+---
+
+## Local Development
+
+Supports standard npm and Docker-based development:
+
+**NPM:**
+1. Clone repo: `git clone https://github.com/Cleven7/Polished-Profile.git`
+2. Install dependencies: `npm install`
+3. Start dev server: `npm run dev`
+
+**Docker:**
+1. Build image: `docker build -t polished-profile .`
+2. Run: `docker run -p 3000:3000 polished-profile`
+
+Browse to `http://localhost:3000` to see the app.
+
+---
+
+## Licensing
+
+- Licensed under the **GNU Affero General Public License v3** (AGPLv3).
+- Ensures users have access to the source code, especially for publicly hosted versions.
+
+---
+
+## Summary Table
+
+| Area                     | Details                                                 |
+|--------------------------|---------------------------------------------------------|
+| Main Language            | TypeScript (97.6%)                                      |
+| Other Languages          | CSS, minor "Other"                                      |
+| Frameworks & Libraries   | Next.js, React, Redux Toolkit, Tailwind, PDF.js, react-pdf |
+| Privacy                  | 100% local processing, no data leaves browser           |
+| Core Functions           | Resume building, PDF parsing, ATS testing               |
+| Deployment               | npm, Docker                                             |
+| License                  | AGPLv3                                                  |
+
+---
+
+## Additional Notes
+
+- The documentation is robust and user-friendly, referencing deep-dives and visual demos.
+- All critical logic for PDF parsing and rendering is handled by specialized libraries for reliability and maintainability.
+- The project is well-architected for extensibility and privacy.
